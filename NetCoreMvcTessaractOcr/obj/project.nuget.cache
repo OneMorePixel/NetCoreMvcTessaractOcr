@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Zh8V+lenhBRnPNBREu8GKnpmAeEeFZNn9IZ8HriMMi6oNRfA6Q4KrqRReIjwx5dJQlkChQfNtNgSjqQ1p8ABg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mustafa Altınova\\source\\repos\\NetCoreMvcTessaractOcr\\NetCoreMvcTessaractOcr\\NetCoreMvcTessaractOcr.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ALTINOVA\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\ALTINOVA\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ALTINOVA\\.nuget\\packages\\nlog\\4.6.7\\nlog.4.6.7.nupkg.sha512",
+    "C:\\Users\\ALTINOVA\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\ALTINOVA\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\ALTINOVA\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512",
+    "C:\\Users\\ALTINOVA\\.nuget\\packages\\tesseractsharp\\1.1.9\\tesseractsharp.1.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

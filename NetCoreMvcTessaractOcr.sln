@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreMvcTessaractOcr", "NetCoreMvcTessaractOcr\NetCoreMvcTessaractOcr.csproj", "{03721090-B501-46AE-90D2-DFF9D2EC9E40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03721090-B501-46AE-90D2-DFF9D2EC9E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03721090-B501-46AE-90D2-DFF9D2EC9E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03721090-B501-46AE-90D2-DFF9D2EC9E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03721090-B501-46AE-90D2-DFF9D2EC9E40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC78DA2F-9CFC-4492-BA44-9A81EBF6DB19}
+	EndGlobalSection
+EndGlobal

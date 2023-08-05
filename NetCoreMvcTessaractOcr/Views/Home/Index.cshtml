@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Tessaract OCR";
+}
+
+<style type="text/css">
+
+    .row .col{
+        margin: 3vh 0;
+    }
+
+    form, .btn-block, #img {
+        width: 100%;
+    }
+
+</style>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col col-12">
+
+            <div class="card">
+
+                <div class="card-header">
+                    <h5>Tessaract OCR</h5>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="input-group">
+                        <form id="frmImage">
+                            <input type="file" name="file" class="form-control" onchange="FileSelect(event)" />
+                        </form>
+
+                        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="AnalyzeFile()">Analyze</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <div class="row justify-content-md-center">
+            <div class="col col-3">
+                <img src="~/images/default.png" id="img" />
+            </div>
+        </div>
+
+        <div class="col col-12">
+
+            <div class="card">
+
+                <div class="card-body">
+                    <p id="imageOcrResult"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+@section Scripts{
+
+    <script type="text/javascript">
+
+        function FileSelect(e){
+            $("#img").attr("src", URL.createObjectURL(e.target.files[0]));
+        }
+
+        function AnalyzeFile() {
+            let data = new FormData($("#frmImage")[0]);
+            $.ajax({
+                url: '/Home/AnalyzeImage',
+                type: 'POST',
+                data: data,
+                processData: false,
+                contentType: false,
+                success: function (result) {
+                    $("#imageOcrResult").html(result.ocrResult);
+                },
+                error: function (r) {
+                    console.log('error', r);
+                }
+            });
+        }   
+
+    </script>
+}
